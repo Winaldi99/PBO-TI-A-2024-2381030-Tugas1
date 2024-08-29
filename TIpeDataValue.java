@@ -3,8 +3,8 @@ public class TIpeDataValue {
     public static void main(String[] args) {
 
         // Cara 1
-        Integer[] kumpulanNumber; //deklarasi
-        kumpulanNumber = new int[3]; //inisialisasi
+        Object[] kumpulanNumber; //deklarasi
+        kumpulanNumber = new Object[3]; //inisialisasi
 
         // Cara 2
 //        int[] kumpulanNumber2 = new int[3];
@@ -15,7 +15,7 @@ public class TIpeDataValue {
         // cara memasukan value ke array
         kumpulanNumber[0] = 100;
         kumpulanNumber[1] = "Winaldi";
-        kumpulanNumber[3] = 20L;
+        kumpulanNumber[2] = 20L;
 
         // cara mengakses
         System.out.println(kumpulanNumber[1]);
