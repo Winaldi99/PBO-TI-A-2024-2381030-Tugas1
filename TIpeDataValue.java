@@ -1,4 +1,4 @@
-public class TIpeDataValue {
+public class TipeDataValue {
     // array adalah sekumpulan data yang memiliki tipe data yang sama
     public static void main(String[] args) {
 
